@@ -1,0 +1,19 @@
+.Col_cell {
+  align-items: center;
+  width: 200px;
+  height: 64px;
+  background-color: #f5f5f5;
+}
+.Row_cell {
+  align-items: center;
+  width: 200px;
+  height: 64px;
+  background-color: #a8a8a8;
+}
+.Gen_cell {
+  background-color: #f2f3f4;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 600;
+}

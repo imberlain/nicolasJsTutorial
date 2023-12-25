@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>미디어</title>
+    <link rel="stylesheet" type="text/css" href="0424.css" />
+  </head>
+  <body>
+    <h3>구름에듀 HTML&CSS강의 23강</h3>
+    <h3>- 미디어 -</h3>
+    <!-- <audio src="./assets/audios/kimbug.mp3" loop autoplay></audio> -->
+    <audio controls>
+      <source src="./assets/audios/kimbug.wav" type="audio/wav" />
+      <source src="./assets/audios/kimbug.mp3" type="audio/mpeg" />
+      <source src="./assets/audios/kimbug.ogg" type="audio/ogg" />
+      <p>
+        해당 브라우저에서 지원되는 포맷이 존재하지 않습니다. 당신의 브라우저를
+        버리고 크롬을 사용하는게 어떨까요?
+      </p>
+    </audio>
+    <!-- <video src="./assets/vedios/kimbug.mov" controls></video> -->
+    <video controls>
+      <source src="./assets/vedios/kimbug.mov" type="video/mp4" />
+      <source src="./assets/vedios/kimbug.mp4" type="mp4" />
+      <p>
+        해당 브라우저에서 지원되는 포맷이 존재하지 않습니다. 당신의 브라우저를
+        버리고 크롬을 사용하는게 어떨까요?
+      </p>
+      <a href="">브라우저 업데이트 하기</a>
+    </video>
+    <!-- <iframe src="https://edu.groom.io" frameborder="0"></iframe> -->
+    <iframe src="https://edu.groom.io" frameborder="0"></iframe>
+    <!-- iframe은 페이지 안에 외부 컨텐츠를 집어넣고 싶을 때 사용할 수 있는 태그. 직접 작성할 일은 거의 없고 복사해서 긁어오면 됨  -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/RiAOdswp0uA"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

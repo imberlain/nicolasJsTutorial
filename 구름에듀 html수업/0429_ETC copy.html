@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- viewport는 화면 사이즈 -->
+    <meta name="author" content="임민혁" />
+    <meta name="description" content="설명설명" />
+    <meta name="keywords" content="임민혁, 구름강의, 구름에듀, 구름edu" />
+    <title>ETC</title>
+    <link rel="stylesheet" type="text/css" href="0424.css" />
+    <!-- <style>
+      h1 {
+        color: red;
+      }
+    </style> -->
+    <script src=""></script>
+  </head>
+
+  <body>
+    <h3>구름에듀 HTML&CSS강의 26강</h3>
+    <h3>- -</h3>
+    <!-- abbr 태그 -->
+    <p>
+      너 혹시
+      <abbr title="Attention-Deficit Hyperactivity Disorder">ADHD</abbr>니?
+    </p>
+    <address>
+      <h1>임민혁</h1>
+      <a href="https://www.naver.com">https://www.naver.com</a>
+    </address>
+    <!-- 연락망의 예시 : (물리적)주소, URL, e mail, 전화번호, SNS -->
+    <pre>
+      <code>
+      console.log('hello kimbug');
+        var kimbug = 'kimbug';
+    </code>
+  </pre>
+    <!-- pre tag : 코드 에디터에 작성한대로 보여주는거임.  -->
+    <h1>Im minhyeok</h1>
+
+    <!-- script 태그는 제일 마지막에 배치해놓는 것이 좋다. -->
+    <script src="./main.js"></script>
+    <script>
+      var h1 = document.querySelector("h1");
+      h1.addEventListener("click", function (event) {
+        this.textContent = "h1";
+      });
+    </script>
+  </body>
+</html>
